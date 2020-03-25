@@ -12,12 +12,20 @@ To get access to pin you only need to dissasemble upper part of device (blue cov
 
 ![Image description](pic/botom.jpg)
 
-![Image description](pic/noFinger.png)
+No finger in device (last two bytes are 0)
 
 ![Image description](pic/noFinger.png)
+
+Finger (check two last bytes (DEC))
 
 ![Image description](pic/finger.png)
 
+Readings on display (same as two last bytes)
+
 ![Image description](pic/readings.jpg)
 
+Serial in PulseView is set to 115200
+
 PulseView file is in data folder
+
+CPU datasheet in datasheet folder
