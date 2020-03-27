@@ -1,0 +1,9 @@
+var hex =  msg.payload;
+var raw = new Buffer(hex);
+
+var spo2 = raw[0];
+var pulse = raw[1];
+
+msg.payload = { spo2, pulse };
+
+return msg;
