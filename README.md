@@ -12,6 +12,8 @@ To get access to pin you only need to dissasemble upper part of device (blue cov
 
 ![Image description](pic/botom.jpg)
 
+![Image description](pic/wires.jpg)
+
 No finger in device (last two bytes are 0)
 
 ![Image description](pic/noFinger.png)
@@ -23,6 +25,12 @@ Finger (check two last bytes (DEC))
 Readings on display (same as two last bytes)
 
 ![Image description](pic/readings.jpg)
+
+![Image description](pic/ArduinoData.png)
+
+![Image description](pic/data.png)
+
+![Image description](pic/graph.png)
 
 Serial in PulseView is set to 115200
 
